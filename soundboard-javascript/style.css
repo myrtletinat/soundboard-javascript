@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0
+}
+body {
+    background-color: #E9967A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+.btn {
+    background-color:#fff;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    transition: .3s;
+    width: 180px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background: #FFFAF0;
+}
